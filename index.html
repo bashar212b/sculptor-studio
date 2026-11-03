@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#17151f">
+  <meta name="description" content="معرض أعمال رسام شخصيات رسوم متحركة.">
+  <link rel="website icon" type="png" href="https://freepngimg.com/thumb/light/69341-star-efficacy-twinkle-light-green-luminous.png">
+  <title>Sculptor Studio — معرض أعمال</title>
+
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.rtl.min.css" rel="stylesheet">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="page-glow glow-one" aria-hidden="true"></div>
+  <div class="page-glow glow-two" aria-hidden="true"></div>
+
+  <nav class="navbar navbar-expand-lg site-nav">
+    <div class="container">
+      <a class="navbar-brand brand-mark" href="#home" aria-label="العودة إلى البداية">
+        <span class="brand-symbol">✳</span> SCULPTOR<span class="brand-light">.STUDIO</span>
+      </a>
+      <button class="navbar-toggler nav-toggle" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="فتح القائمة">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mainNav">
+        <ul class="navbar-nav me-auto align-items-lg-center gap-lg-3">
+          <li class="nav-item"><a class="nav-link" href="#work">الأعمال</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">نبذة عني</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">تواصل</a></li>
+        </ul>
+        <a class="nav-cta" href="#work">استكشف المعرض <span>↗</span></a>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <section class="hero-section section-space" id="home">
+      <div class="container">
+        <div class="row align-items-center gy-5">
+          <div class="col-lg-6 order-2 order-lg-1">
+            <div class="hero-copy reveal">
+              <div class="eyebrow"><span class="eyebrow-dot"></span>نحات · Sculptor</div>
+              <h1>أنحت عناصر<br><span class="text-gradient">لها روحها الخاصة.</span></h1>
+              <p class="hero-description">مساحة تجمع الأفكار التي ابتكرتها، من اللمسات الأولى للطين إلى تفاصيلها النهائية. كل فكرة لها حكاية، وهذه بداية الحكاية.</p>
+              <div class="hero-actions">
+                <a class="btn-main" href="#work">شاهد أعمالي <span>↘</span></a>
+                <a class="btn-quiet" href="#about">تعرّف عليّ</a>
+              </div>
+              <div class="hero-meta">
+                <div><strong>01</strong><span>رسم الأفكار</span></div>
+                <div><strong>02</strong><span>نحت الكتلة</span></div>
+                <div><strong>03</strong><span>صب و تعتيق</span></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 order-1 order-lg-2">
+            <div class="hero-art reveal reveal-delay-2">
+              <div class="art-frame frame-back"></div>
+              <div class="hero-image-wrap">
+                <!-- استبدل الصورة التالية بصورة عملك الرئيسية -->
+                <img src="./assets/images/IMG-20260922-WA0099.jpg" alt="ضع هنا صورة شخصية من أعمالك" class="hero-image" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+               
+              </div>
+              <div class="floating-note note-top"><span>✦</span> Original Sculptor</div>
+              <div class="floating-note note-bottom"><span class="note-pulse"></span> من الخيال إلى النحت</div>
+              <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="scroll-cue" href="#work"><span></span> اكتشف الأعمال</a>
+    </section>
+
+    <section class="work-section section-space" id="work">
+      <div class="container">
+        <div class="section-heading reveal">
+          <div>
+            <div class="eyebrow"><span class="eyebrow-dot"></span> SELECTED WORKS</div>
+            <h2>من داخل <span class="text-gradient">الخيال</span></h2>
+          </div>
+          <p>مجموعة مختارة من المجسمات والشخصيات ثلاثية الأبعاد التي نحتها.
+<br>اضغط على أي عمل لمشاهدته بحجم أكبر.</p>
+        </div>
+
+
+
+        <div class="row g-4 portfolio-grid" id="portfolioGrid">
+
+
+          <div class="col-sm-2 col-lg-2 portfolio-item reveal" data-category="character">
+            <button class="work-card" type="button" data-image="assets/images/a.jpg">
+              <div class="work-image"><img src="./assets/images/a.jpg" alt="العمل الأول" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+            </button>
+          </div>
+
+          <div class="col-sm-2 col-lg-2 portfolio-item reveal reveal-delay-1" data-category="concept">
+            <button class="work-card" type="button" data-image="assets/images/b.jpg">
+              <div class="work-image"><img src="./assets/images/b.jpg" alt="العمل الثاني" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+              <div class="work-info"><div><span class="work-type">CONCEPT ART</span><h3>تصميم أولي 02</h3></div><span class="work-arrow">↗</span></div>
+            </button>
+          </div>
+
+          <div class="col-sm-2 col-lg-2 portfolio-item reveal" data-category="color">
+            <button class="work-card" type="button" data-image="assets/images/c.jpg">
+              <div class="work-image"><img src="./assets/images/c.jpg" alt="العمل الثالث" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+              <div class="work-info"><div><span class="work-type">COLOR & LIGHT</span><h3>دراسة ابعاد 03</h3></div><span class="work-arrow">↗</span></div>
+            </button>
+          </div>
+          
+          <div class="col-sm-2 col-lg-2 portfolio-item reveal" data-category="character">
+            <button class="work-card" type="button" data-image="assets/images/d.jpg">
+              <div class="work-image"><img src="./assets/images/n.png" alt="العمل الرابع" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+              </button>
+          </div>
+          
+          
+        </div>
+        <div class="portfolio-foot reveal"><span>أعمال مختارة من معرضي</span><span class="foot-line"></span><span>2022 — 2026</span></div>
+      </div>
+    </section>
+
+    <section class="about-section section-space" id="about">
+      <div class="container">
+        <div class="about-panel reveal">
+          <div class="about-mark">✳</div>
+          <div class="row align-items-center gy-4">
+            <div class="col-lg-7">
+              <div class="eyebrow"><span class="eyebrow-dot"></span> A LITTLE ABOUT ME</div>
+              <h2>كل خط هو بداية<br><span class="text-gradient">شخصية جديدة.</span></h2>
+            </div>
+            <div class="col-lg-5">
+              <p class="about-text">أنا بشار سلوم، نحات ومصمم مجسمات. أحب تشكيل الطين وبث الروح في شخصيات ثلاثية الأبعاد لها ملامح مميزة وعالم خاص بها. هنا أشارك بعضًا من تجاربي وأعمالي في عالم النحت.</p>
+               </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-section section-space" id="contact">
+      <div class="container">
+        <div class="contact-inner reveal">
+          <div class="eyebrow"><span class="eyebrow-dot"></span> LET'S CREATE SOMETHING</div>
+          <h2>لديك فكرة لتجسيدها؟<br><span class="text-gradient">لنعطها حياة.</span></h2>
+          <p>للتعاون أو الاستفسار عن الأعمال، يمكنك التواصل معي عبر الروابط التالية.</p>
+          <div class="contact-actions">
+            <!-- استبدل الروابط بصفحاتك الحقيقية -->
+            <a href="https://instagram.com/bashar_292?vrfl=NGI3YW01bXU3cWps" target="_blank" rel="noopener noreferrer" class="contact-link">Instagram <span>↗</span></a>
+            <a href="mailto:basharsalloumjob@gmail.com" class="contact-link">Email <span>↗</span></a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container d-flex flex-column flex-sm-row justify-content-between align-items-center gap-3">
+      <a class="navbar-brand brand-mark" href="#home"><span class="brand-symbol">✳</span> SCULPTOR<span class="brand-light">.STUDIO</span></a>
+      <p>صُنع بشغف، ورُسم بالخيال. <span>© <span id="year"></span></span></p>
+      <a class="back-top" href="#home">العودة للأعلى ↑</a>
+    </div>
+  </footer>
+
+  <!-- Modal: معاينة العمل -->
+  <div class="modal fade" id="workModal" tabindex="-1" aria-labelledby="workModalTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content work-modal-content">
+        <button type="button" class="modal-close" data-bs-dismiss="modal" aria-label="إغلاق">×</button>
+        <img src="" alt="" id="modalImage" class="modal-art">
+        <div class="modal-caption"><span class="work-type"></span><h3 id="workModalTitle">عنوان العمل</h3><p id="modalDescription">وصف العمل</p></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
