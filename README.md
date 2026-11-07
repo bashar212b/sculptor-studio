@@ -1,4 +1,4 @@
-# Character Studio — معرض أعمال رسام شخصيات
+# Sculptor Studio
 
 معرض أعمال عربي RTL باستخدام HTML وCSS وJavaScript وBootstrap 5، دون إطار عمل JavaScript.
 
